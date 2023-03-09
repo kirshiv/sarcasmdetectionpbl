@@ -194,8 +194,7 @@ if rad=="Sarcasm Detection":
     vector_sent5=tfidf5.transform([transformed_sent5])
     if Label==1:
         prediction5=1
-    elif:
-        prediction=0
+   
 
     if st.button("Predict"):
         if prediction5==1:
