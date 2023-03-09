@@ -22,7 +22,7 @@ rad=st.sidebar.radio("Navigation",["Home","Spam or Ham Detection","Sentiment Ana
 
 #Home Page
 if rad=="Home":
-    st.title("Complete Text Analysis App")
+    st.title("Sarcasm Detection")
     st.image("images.jpg")
     st.text(" ")
     st.text("The Following Text Analysis Options Are Available->")
@@ -32,6 +32,8 @@ if rad=="Home":
     st.text("3. Stress Detection")
     st.text("4. Hate and Offensive Content Detection")
     st.text("5. Sarcasm Detection")
+    st.text("Created by Kirtan Raina,Rakshit Jandiyal,Ayush Raina,Manav Shah")
+    st.text("Under the guidance of Dr.Mansing Rathod")
 
 #function to clean and transform the user input which is in raw format
 def transform_text(text):
