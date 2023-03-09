@@ -192,8 +192,8 @@ if rad=="Sarcasm Detection":
     sent5=st.text_area("Enter The Text")
     transformed_sent5=transform_text(sent5)
     vector_sent5=tfidf5.transform([transformed_sent5])
-    if Label==1:
-        prediction5=1
+    prediction5=model5.predict(vector_sent5)[0]
+
    
 
     if st.button("Predict"):
