@@ -21,7 +21,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 sw=nltk.corpus.stopwords.words("english")
 
-rad=st.sidebar.radio("Navigation",["Home","Spam or Ham Detection","Sentiment Analysis","Stress Detection","Hate and Offensive Content Detection","Sarcasm Detection"])
+rad=st.sidebar.radio("Navigation",["Home","Sarcasm Detection"])
 
 #Home Page
 if rad=="Home":
