@@ -193,7 +193,7 @@ if rad=="Sarcasm Detection":
     transformed_sent5=transform_text(sent5)
     vector_sent5=tfidf5.transform([transformed_sent5])
     prediction5=model5.predict(vector_sent5)[0]
-     prediction4=model5.predict(vector_sent5)[1]
+    prediction4=model5.predict(vector_sent5)[1]
 
    
 
