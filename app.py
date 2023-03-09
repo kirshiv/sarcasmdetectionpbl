@@ -192,7 +192,7 @@ if rad=="Sarcasm Detection":
     prediction5=model5.predict(vector_sent5)[0]
 
     if st.button("Predict"):
-        if prediction5==1:
+        if prediction5==0:
             st.exception("Sarcastic Text!!")
-        elif prediction5==0:
+        elif prediction5==1:
             st.success(" Non -Sarcastic Text!!")
