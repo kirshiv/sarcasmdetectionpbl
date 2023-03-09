@@ -192,10 +192,10 @@ if rad=="Sarcasm Detection":
     sent5=st.text_area("Enter The Text")
     transformed_sent5=transform_text(sent5)
     vector_sent5=tfidf5.transform([transformed_sent5])
-    prediction5=model5.predict(vector_sent5)[1]
+    prediction5=model5.predict(vector_sent5)[0]
 
     if st.button("Predict"):
         if prediction5==1:
-            st.exception("Sarcastic Text!!")
+            st.success("Sarcastic Text!!")
         elif prediction5==0:
             st.success(" Non -Sarcastic Text!!")
