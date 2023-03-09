@@ -13,6 +13,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestClassifier
+import pandas as pd
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
 
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -192,7 +195,7 @@ if rad=="Sarcasm Detection":
     prediction5=model5.predict(vector_sent5)[0]
 
     if st.button("Predict"):
-        if prediction5==0:
+        if prediction5==1:
             st.exception("Sarcastic Text!!")
-        elif prediction5==1:
+        elif prediction5==0:
             st.success(" Non -Sarcastic Text!!")
