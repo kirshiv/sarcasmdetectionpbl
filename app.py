@@ -193,6 +193,6 @@ if rad=="Sarcasm Detection":
 
     if st.button("Predict"):
         if prediction5==1:
-            st.exception(" Non - Sarcastic Text!!")
+            st.exception("Sarcastic Text!!")
         elif prediction5==0:
-            st.success(" Sarcastic Text!!")
+            st.success(" Non -Sarcastic Text!!")
