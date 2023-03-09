@@ -29,11 +29,7 @@ if rad=="Home":
     st.text(" ")
     st.text("The Following Text Analysis Options Are Available->")
     st.text(" ")
-    st.text("1. Spam or Ham Detection")
-    st.text("2. Sentiment Analysis")
-    st.text("3. Stress Detection")
-    st.text("4. Hate and Offensive Content Detection")
-    st.text("5. Sarcasm Detection")
+    st.text(" Sarcasm Detection")
     st.text("Created by Kirtan Raina,Rakshit Jandiyal,Ayush Raina,Manav Shah")
     st.text("Under the guidance of Dr.Mansing Rathod")
 
