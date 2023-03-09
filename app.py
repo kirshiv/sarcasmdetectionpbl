@@ -23,8 +23,8 @@ rad=st.sidebar.radio("Navigation",["Home","Spam or Ham Detection","Sentiment Ana
 #Home Page
 if rad=="Home":
     st.title("Sarcasm Detection")
-    st.subheader('This is a subheader')
-    st.subheader('A subheader with _italics_ :blue[colors] and emojis :sunglasses:')
+    st.subheader('By Kirtan Raina,Rakshit Jandiyal,Ayush Raina and Manav Shah')
+    st.subheader('Guided by:- Dr.Mansing Rathod')
     st.image("images.jpg")
     st.text(" ")
     st.text("The Following Text Analysis Options Are Available->")
