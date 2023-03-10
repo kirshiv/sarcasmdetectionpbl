@@ -195,4 +195,4 @@ if rad=="Sarcasm Detection":
         if prediction5==1:
             st.exception("Sarcastic Text!!")
         elif prediction5==0:
-            st.success("Non Sarcastic Text!!"
+            st.success("Non Sarcastic Text!!")
