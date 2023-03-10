@@ -26,15 +26,11 @@ rad=st.sidebar.radio("Navigation",["Home","Sarcasm Detection"])
 #Home Page
 if rad=="Home":
     st.title("Sarcasm Detection")
-    st.subheader('By Kirtan Raina,Rakshit Jandiyal,Ayush Raina and Manav Shah')
-    st.subheader('Guided by:- Dr.Mansing Rathod')
     st.image("images.jpg")
     st.text(" ")
     st.text("The Following Text Analysis Options Are Available->")
     st.text(" ")
     st.text(" Sarcasm Detection")
-    st.text("Created by Kirtan Raina,Rakshit Jandiyal,Ayush Raina,Manav Shah")
-    st.text("Under the guidance of Dr.Mansing Rathod")
 
 #function to clean and transform the user input which is in raw format
 def transform_text(text):
