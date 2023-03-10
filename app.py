@@ -26,7 +26,6 @@ rad=st.sidebar.radio("Navigation",["Home","Sarcasm Detection"])
 #Home Page
 if rad=="Home":
     st.title("Sarcasm Detection")
-    st.image("images.jpg")
     st.text(" ")
    
 
