@@ -25,7 +25,7 @@ if rad=="Home":
     st.title("Sarcasm Analysis App")
     st.image("images.jpg")
     st.text(" ")
-    st.text("The Following Text Analysis Options Are Available->")
+    st.text("The Following Sarcasm Analysis Options Are Available->")
     st.text(" ")
     st.text("1. Spam or Ham Detection")
     st.text("2. Sentiment Analysis")
