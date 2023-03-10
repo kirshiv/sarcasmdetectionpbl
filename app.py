@@ -28,9 +28,7 @@ if rad=="Home":
     st.title("Sarcasm Detection")
     st.image("images.jpg")
     st.text(" ")
-    st.text("The Following Text Analysis Options Are Available->")
-    st.text(" ")
-    st.text(" Sarcasm Detection")
+   
 
 #function to clean and transform the user input which is in raw format
 def transform_text(text):
